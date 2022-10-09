@@ -19,4 +19,12 @@ pip3 install torch torchvision torchaudio --extra-index-url https://download.pyt
 
 In order to train the model using the provided code, the data needs to be formated in a certain manner. The `datasets/ucf101/CreateDataset.py` uses [ffmpeg](https://www.ffmpeg.org/) to extract frames from videos.
 
+***Training*
+In the `main.py`, set the parameters (dataset path, etc) and run all the cells
+
+or to train from cmd, run:
+```
+python main.py --datasetPath path\to\dataset
+```
+
 
