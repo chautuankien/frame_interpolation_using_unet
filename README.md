@@ -14,3 +14,9 @@ For GPU, run
 ```
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
+
+## Preparing training data
+
+In order to train the model using the provided code, the data needs to be formated in a certain manner. The `datasets/ucf101/CreateDataset.py` uses [ffmpeg](https://www.ffmpeg.org/) to extract frames from videos.
+
+
